@@ -1,9 +1,8 @@
 <?php
-//TODO rename!!
 $host = "localhost";
-$login = "theverbe_katie";
-$password = "k47i3v";
-$databaseName = "theverbe_katie";
+$login = "root";
+$password = "b@115@x";
+$databaseName = "portfolio";
 
 $mysqli = new mysqli($host, $login, $password, $databaseName);
 //Check for errors, and only perform queries if there are none

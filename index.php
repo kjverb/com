@@ -1,5 +1,5 @@
 <?php
-$title = "Under Construction";
-$image = "images/IMG_0138.JPG";
+$title = "Katie Verbeck's Portfolio";
+$viewFile = "view/index/index.php";
 
-require_once "view/index/index.php";
+require_once "php/header.php";

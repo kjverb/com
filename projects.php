@@ -31,11 +31,6 @@
 
 		include 'config/password.inc';
 
-		$mysqli = new mysqli($host, $login, $password, $databaseName);
-		//Check for errors, and only perform queries if there are none
-		if ( mysqli_connect_error() ) {
-			die("Can't connect to database: " . $mysqli->error);
-		}
 		if(isset($_GET['sort']) && isset($_GET['type']) &&
 			($_GET['sort']=="projectID" || $_GET['sort']=="yearCompleted" || $_GET['sort']=="name") &&
 			($_GET['type']=="ASC" || $_GET['type']=="DESC")	) {
