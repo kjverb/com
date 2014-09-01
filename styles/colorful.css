@@ -1,0 +1,160 @@
+body {
+	background: #E3DEC1;
+	font-family: Verdana, Arial, sans-serif;
+}
+h1 {
+	color: #B94629;
+	font-size: 50px;
+	font-variant: small-caps;
+}
+h2 {
+	color: #B94629;
+	font-size: 30px;
+	font-variant: small-caps;
+	text-align: right;
+}
+h3 {
+	color: #B94629;
+	font-size: 25px;
+	font-variant: small-caps;
+
+}
+a:link {
+	color: #121F54;
+}
+a:link.navigation {
+	color: #B94629;
+	font-size: 44px;
+	font-variant: small-caps;
+}
+p.sidenav {
+	color: #B94629;
+	font-size: 20px;
+	font-variant: small-caps;
+	text-align:right;
+}
+a:link.sidenav {
+	color: #B94629;
+	font-size: 20px;
+	font-variant: small-caps;
+	text-align:right;
+}
+a:visited {
+	color: #B94629;
+}
+a:visited.sidenav {
+	color: #B94629;
+}
+a:active {
+	color: #B94629;
+}
+a:active.sidenav {
+	color: #007241;
+}
+a:hover {
+	color: #47AFAF;
+	text-decoration: overline;
+}
+a:hover.sidenav {
+	color: #47AFAF;
+}
+#leftside {	
+	position: absolute; 
+	top: 100px;
+	text-align:right;
+	line-height:250%;
+}
+#rightside {
+	border-left-width: 5px;  
+	border-left-style: solid; 
+	border-left-color: #B94629; 
+	position: absolute; 
+	left: 350px; 
+	top: 100px;
+	width:800px;
+	display: table;
+	padding-left:10px;
+}
+p {
+	padding-left:10px;
+	color:#121F54;
+}
+span.clicked {
+	color: #B94629;
+	font-size: 27px;
+	font-variant: small-caps;
+	text-align: right;
+}
+table {
+	padding-left:10px;
+	color:#121F54;
+}
+.row  {
+	width: 100%;
+	clear:right;
+}
+.left {
+	width: 100%;
+	clear:right;
+}
+.right {
+	width: 100%;
+	clear:right;
+}
+img{
+	border:0px;
+}
+.top{
+	color: #B94629;
+	font-size: 24px;
+	font-variant: small-caps;
+	font-weight:bold;
+	text-align:center;
+}
+.bottom{
+	font-size:12px;
+}
+.middle img {
+	height:300px;
+	width:47%;
+	float:left;
+}
+p.descriptionOfProject {
+	display:block;
+	float:right;
+	text-align:justify;
+	color:#673310;
+}
+.descdiv {
+	display:block;
+	float:right;
+	width:47%;
+}
+p#stylePicker {
+	line-height:100%;
+	color:#B94629;
+	font-size: 20px;
+	font-variant: small-caps;
+}
+span#styleTitle{
+	text-decoration: underline;
+	color:#B94629;
+}
+p#stylePicker a{
+	font-variant: none;
+	color:#B94629;
+	text-decoration: none;
+}
+p#stylePicker a:hover {
+	color: #47AFAF;
+	text-decoration: none;
+}
+p#sortProjects {
+	color:#673310;
+}
+#sortProjects a{
+	color:#673310;
+}
+#sortProjects a:hover{
+	color: #47AFAF;
+}

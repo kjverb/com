@@ -1,0 +1,145 @@
+body {
+	background-color: #FFFFFF;
+}
+h1 {
+	color: #020F2F;
+	font-size: 16px;
+	font-family: Verdana, Arial, sans-serif; 
+	text-transform: uppercase;
+	text-align:center;
+	letter-spacing: 8px;
+}
+h2 {
+	color:#020F2F;
+	font-size:14px;
+	font-family: Verdana, Arial, sans-serif; 
+	text-transform: uppercase;
+	text-align:center;
+	font-weight: bold;
+	text-decoration:underline;
+}
+p {
+	color: #020F2F;
+	font-size: 14px;
+	font-family: Verdana, Arial, sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+}
+div#header {
+	margin-left: auto ;
+	margin-right: auto ;
+	text-align: center;
+	background-image: none;
+	height: auto;
+	width: auto;
+	margin: 0px;
+}
+#headerText {
+	visibility: visible;
+}
+div#leftside {
+	margin-left: auto ;
+	margin-right: auto ;
+	text-align: center;
+	clear:right;
+	top:90px;
+	bottom:10px;
+}
+#mainpic {
+	display:none;
+}
+#rightside { 
+	border-left-width: 0px;
+	left: 0px; 
+	top: 220px;
+	width:100%;
+	display: table;
+	padding-left:0px;
+}
+a {
+	color: #334A84;
+	font-size:15px;
+	text-decoration: underline;
+}
+a:hover {
+	color: #303648;
+}
+div#main {
+	background-color: #93ACE8;
+	width: 100%;
+	padding: 5px 0px 5px 0px;
+	min-height: 500px;
+}
+span#clicked_link{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10pt;
+	color: #020F2F;
+	padding-left: 20px;
+	font-weight: normal;
+	letter-spacing: 4px;
+	text-align: left;
+}
+.left {
+	width: 97%;
+	float:none;
+	clear:right;
+}
+.right {
+	width: 97%;
+	float:none;
+	clear:right;
+}
+p.sidenav {
+	color: #374061;
+	font-size: 18px;
+	font-family: Verdana, Arial, sans-serif;
+	font-variant: small-caps;
+	margin-left: auto ;
+	margin-right: auto ;
+	text-align: center;
+	letter-spacing:-1px;
+}
+a:link.sidenav {
+	color: #374061;
+	font-size: 18px;
+	font-family: Verdana, Arial, sans-serif;
+	font-variant: small-caps;
+	margin-left: auto ;
+	margin-right: auto ;
+	text-align: center;
+	letter-spacing:-1px;
+}
+a:active.sidenav {
+	color: #374681; 
+	font-size: 18px;
+	font-family: Verdana, Arial, sans-serif; 
+	font-variant: small-caps;
+	margin-left: auto ;
+	margin-right: auto ;
+	text-align: center;
+	letter-spacing:-1px;
+}
+a:hover.sidenav {
+	color: #374681; 
+	font-size: 18px;
+	font-family: Verdana, Arial, sans-serif; 
+	font-variant: small-caps; 
+	margin-left: auto ;
+	margin-right: auto ;
+	text-align: center;
+	letter-spacing:-1px;
+}
+p#sortProjects {
+	display:none;
+}
+p#stylePicker {
+	display:none;
+}
+.middle img {
+	height:250px;
+	width:100%;
+}
+p.descriptionOfProject {
+	display:none;
+}
