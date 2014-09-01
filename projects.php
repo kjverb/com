@@ -29,7 +29,7 @@
 			print("</div>");
 		}
 
-		include 'config/password.inc';
+		include 'config/pw.inc';
 
 		if(isset($_GET['sort']) && isset($_GET['type']) &&
 			($_GET['sort']=="projectID" || $_GET['sort']=="yearCompleted" || $_GET['sort']=="name") &&
